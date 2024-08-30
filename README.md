@@ -61,15 +61,15 @@ flutter run
 ```
 
 ## Folder Structure
-Zibo-Simple-Flutter-Project/
-├── lib/
-│   ├── main.dart       # Entry point of the application
-│   ├── home_screen.dart    # Home screen of the application
-│   ├── decorated_container.dart  # Decorated container widget
-│   ├── form_example.dart  # Form with validation
-│   ├── image_example.dart  # Image and icon display
-│   ├── button_row.dart     # Row of buttons
-│   └── orientation_indicator.dart  # Device orientation indicator
-├── assets/
-│   └── my_image.png     # Example image asset
-└── pubspec.yaml         # Configuration file
+   Zibo-Simple-Flutter-Project/
+   ├── lib/
+   │   ├── main.dart       # Entry point of the application
+   │   ├── home_screen.dart    # Home screen of the application
+   │   ├── decorated_container.dart  # Decorated container widget
+   │   ├── form_example.dart  # Form with validation
+   │   ├── image_example.dart  # Image and icon display
+   │   ├── button_row.dart     # Row of buttons
+   │   └── orientation_indicator.dart  # Device orientation indicator
+   ├── assets/
+   │   └── my_image.png     # Example image asset
+   └── pubspec.yaml         # Configuration file
