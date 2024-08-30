@@ -1,7 +1,5 @@
 # Zibo-Simple-Flutter-Project
 
-# Basic Flutter App
-
 This is a basic Flutter app that demonstrates the use of various Flutter widgets and concepts, including forms, images, decorators, and orientation detection. The app is designed with modularity in mind, with each component of the UI separated into its own class.
 
 ## Table of Contents
@@ -62,9 +60,10 @@ To run the app on an emulator or a physical device, use the following command:
 
 ```bash
 flutter run
+```
 
 ## FOLDER STRUCTURE 
-basic-flutter-app/
+Zibo-Simple-Flutter-Project/
 ├── lib/
 │   ├── main.dart       # Entry point of the application
 │   ├── home_screen.dart    # Home screen of the application
