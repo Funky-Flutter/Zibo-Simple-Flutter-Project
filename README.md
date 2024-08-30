@@ -45,12 +45,12 @@ This Flutter application is a simple demonstration of several key concepts:
     ```
 
 3. **Add your image assets**:
-    - Place your images in the `assets` directory.
-    - Update the `pubspec.yaml` file to include the assets:
-      ```yaml
-      assets:
-        - assets/my_image.png
-      ```
+   - Place your images in the `assets` directory.
+   - Update the `pubspec.yaml` file to include the assets:
+     ```yaml
+     assets:
+       - assets/my_image.png
+     ```
 
 ## Running the App
 
@@ -63,13 +63,13 @@ flutter run
 ## Folder Structure
    Zibo-Simple-Flutter-Project/
    ├── lib/
-   │   ├── main.dart       # Entry point of the application
-   │   ├── home_screen.dart    # Home screen of the application
+   │   ├── main.dart                 # Entry point of the application
+   │   ├── home_screen.dart          # Home screen of the application
    │   ├── decorated_container.dart  # Decorated container widget
-   │   ├── form_example.dart  # Form with validation
-   │   ├── image_example.dart  # Image and icon display
-   │   ├── button_row.dart     # Row of buttons
-   │   └── orientation_indicator.dart  # Device orientation indicator
+   │   ├── form_example.dart         # Form with validation
+   │   ├── image_example.dart        # Image and icon display
+   │   ├── button_row.dart           # Row of buttons
+   │   └── orientation_indicator.dart# Device orientation indicator
    ├── assets/
-   │   └── my_image.png     # Example image asset
-   └── pubspec.yaml         # Configuration file
+   │   └── my_image.png              # Example image asset
+   └── pubspec.yaml                  # Configuration file
