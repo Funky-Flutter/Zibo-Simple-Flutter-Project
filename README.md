@@ -8,8 +8,6 @@ This is a basic Flutter app that demonstrates the use of various Flutter widgets
 - [Installation](#installation)
 - [Running the App](#running-the-app)
 - [Folder Structure](#folder-structure)
-- [Screenshots](#screenshots)
-- [License](#license)
 
 ## Overview
 
@@ -62,7 +60,7 @@ To run the app on an emulator or a physical device, use the following command:
 flutter run
 ```
 
-## FOLDER STRUCTURE 
+## Folder Structure
 Zibo-Simple-Flutter-Project/
 ├── lib/
 │   ├── main.dart       # Entry point of the application
