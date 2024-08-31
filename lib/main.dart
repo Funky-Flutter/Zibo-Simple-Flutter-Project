@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zibbo_flutter_midsem/home_screen.dart';
+import 'package:zibbo_flutter_midsem/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
+      debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
   }

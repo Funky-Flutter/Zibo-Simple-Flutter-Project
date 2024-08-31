@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'bottom_row.dart';
-import 'decorated_container.dart';
-import 'form_example.dart';
-import 'image_example.dart';
-import 'orientation_indicator.dart';
+import '../components/decorated_container.dart';
+import '../components/form_example.dart';
+import '../components/image_example.dart';
+import '../components/orientation_indicator.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -29,7 +28,6 @@ class HomeScreen extends StatelessWidget {
                   SizedBox(height: 20),
                   ImageExample(),
                   SizedBox(height: 20),
-                  BottomRow()
                 ],
               ),
             )),

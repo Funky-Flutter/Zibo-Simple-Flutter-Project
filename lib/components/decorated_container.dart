@@ -21,7 +21,7 @@ class DecoratedContainer extends StatelessWidget {
       ),
 
       child: const Text(
-        "Zibo's Flutter Midsem! 😉",
+        "Welcome to ATU Portal",
         style: TextStyle(fontSize: 24, color: Colors.white),
       ),
     );

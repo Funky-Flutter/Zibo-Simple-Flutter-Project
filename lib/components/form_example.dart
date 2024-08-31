@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zibbo_flutter_midsem/screens/dashboard.dart';
 
 class FormExample extends StatefulWidget {
   const FormExample({super.key});
@@ -26,6 +27,10 @@ class _FormExampleState extends State<FormExample> {
                 return 'Please enter a username';
               }
 
+              if (value != 'zibo'.trim()) {
+                return 'Invalid username';
+              }
+
               return null;
             },
           ),
@@ -43,6 +48,10 @@ class _FormExampleState extends State<FormExample> {
                 return 'please enter your password';
               }
 
+              if (value != 'password'.trim()) {
+                return 'Wrong password';
+              }
+
               return null;
             },
           ),
@@ -50,14 +59,19 @@ class _FormExampleState extends State<FormExample> {
           // add some space between the two fields
           const SizedBox(height: 20),
           ElevatedButton(
-              onPressed: () {
-                if(_key.currentState!.validate()) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Processing data...'))
-                  );
-                }
-              },
-              child: const Text('Submit')
+            onPressed: () {
+              if(_key.currentState!.validate()) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('Signing in...'))
+                );
+
+                Future.delayed(const Duration(seconds: 1)).then((value) => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Dashboard())
+                ));
+              }
+            },
+            child: const Text('Submit')
           )
         ],
       ),
